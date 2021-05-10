@@ -1,57 +1,15 @@
-function CheckFun( handles, Btn )
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
-switch Btn
-    
-    case handles.Btn_Pn
-        
-        if CheckPn(handles)
-            set(handles.Btn_Pn,'enable','on')
-        else
-            set(handles.Btn_Pn,'enable','off')
-        end
-        
-    case handles.Btn_DisAdim
-        
-        if CheckDisAdim(handles)
-            set(handles.Btn_DisAdim,'enable','on')
-        else
-            set(handles.Btn_DisAdim,'enable','off')
-        end
-        
-    case handles.Btn_AnaAdim
-        
-        if CheckAnaAdim(handles)
-            set(handles.Btn_AnaAdim,'enable','on')
-        else
-            set(handles.Btn_AnaAdim,'enable','off')
-        end
-        
-    case handles.Btn_DisDim
-        
-        if CheckDisDim(handles)
-            set(handles.Btn_DisDim,'enable','on')
-        else
-            set(handles.Btn_DisDim,'enable','off')
-        end
-        
-    case handles.Btn_AnaDim
-        
-        if CheckAnaDim(handles)
-            set(handles.Btn_AnaDim,'enable','on')
-        else
-            set(handles.Btn_AnaDim,'enable','off')
-        end
-        
-    case handles.Btn_Opt
-        
-        if CheckOpt(handles)
-            set(handles.Btn_Opt,'enable','on')
-        else
-            set(handles.Btn_Opt,'enable','off')
-        end
-        
-end
-
-end
-
+% AeroGen - Design and analysis of horizontal axis wind turbines
+% Copyright (C) 2016  Abraham Vivas
+%
+% This program is free software: you can redistribute it and/or modify
+% it under the terms of the GNU General Public License as published by
+% the Free Software Foundation, either version 3 of the License, or
+% (at your option) any later version.
+%
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+%
+% You should have received a copy of the GNU General Public License
+% along with this program.  If not, see <https://www.gnu.org/licenses/>.

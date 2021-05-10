@@ -1,52 +1,15 @@
-function [DataV,colNames,tamStr] = CargarData( dirData )
-%CargarData Carga y adecúa la data de viento
-%   Detailed explanation goes here
-
-
-    hwb = waitbar(0,'1','Name','Cargando');
-    
-    
-    waitbar(0/3,hwb,'Leyendo tabla...')
-    
-    DataV = readtable(dirData, 'FileType', 'spreadsheet' );
-    
-    waitbar(1/3,hwb,'Limpiando tabla...')
-    %Limpieza de tabla
-    DataV = limpiar(DataV);
-    
-    waitbar(2/3,hwb,'Adecuando tabla...')
-    
-    %convertir la primera columna a vector de fechas
-    DataV.(1) = datevec(DataV.(1),'dd/mm/yyyy HH:MM:ss');
-    colNames = [{'Año','Mes','Día','Hora','Minuto','Segundo'} DataV.Properties.VariableNames(2:end)];
-    
-    %Captura de alturas de la tabla
-    altVec=strncmp('V_',DataV.Properties.VariableNames,2);
-    altStr=DataV.Properties.VariableNames(altVec);
-    altStr=strrep(altStr,'V_','');
-    
-    %Convertir valores numéricos de string a double
-    tamStr = length(altStr);
-    
-    for i = 2 : 2*tamStr + 1
-        
-        if iscell(DataV.(i))
-            DataV.(i) = str2double(DataV.(i));
-        end
-        
-    end
-    
-    %Pasar de coordenadas cardinales a coordenadas polares
-    Aux=DataV{:,2+tamStr:1+2*tamStr};
-
-    
-    Aux(90-Aux>=0)=90-Aux(90-Aux>=0);
-    Aux(90-Aux<0)=90-Aux(90-Aux<0)+360;
-    Aux=Aux/180*pi;
-    DataV{:,2+tamStr:1+2*tamStr}=Aux;
-    
-    waitbar(3/3,hwb,'Completado...')
-    
-    delete(hwb)
-end
-
+% AeroGen - Design and analysis of horizontal axis wind turbines
+% Copyright (C) 2016  Abraham Vivas
+%
+% This program is free software: you can redistribute it and/or modify
+% it under the terms of the GNU General Public License as published by
+% the Free Software Foundation, either version 3 of the License, or
+% (at your option) any later version.
+%
+% This program is distributed in the hope that it will be useful,
+% but WITHOUT ANY WARRANTY; without even the implied warranty of
+% MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+% GNU General Public License for more details.
+%
+% You should have received a copy of the GNU General Public License
+% along with this program.  If not, see <https://www.gnu.org/licenses/>.
