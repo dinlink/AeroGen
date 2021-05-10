@@ -1,0 +1,183 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="1177871652" file="C:\Users\Abraham\Documents\MATLAB\Apps\AeroGenV3\AeroGen.prj" location="C:\Users\Abraham\Documents\MATLAB\Apps\AeroGenV3" name="AeroGen" preferred-package-location="C:\Users\Abraham\Documents\MATLAB\Apps\AeroGenV3\AeroGen\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="MATLAB Compiler for Standalone Applications">
+    <param.appname>AeroGen</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>3.1</param.version>
+    <param.authnamewatermark>Abraham Vivas</param.authnamewatermark>
+    <param.email>abrahamvivasborda@gmail.com</param.email>
+    <param.company />
+    <param.summary>Aplicación para el diseño y análisis aerodinámico de turbinas eólicas de eje horizontal</param.summary>
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\AeroGen\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\AeroGen\for_testing</param.intermediate>
+    <param.output>${PROJECT_ROOT}\AeroGen\for_redistribution</param.output>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.server.ctf>${PROJECT_ROOT}\AeroGen\for_testing\.ctf</param.server.ctf>
+    <param.server.readme>${PROJECT_ROOT}\AeroGen\for_testing\readme.txt</param.server.readme>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.company />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.output />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.server.ctf />
+      <param.server.readme />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Principal.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\AnaAdim.fig</file>
+      <file>${PROJECT_ROOT}\AnaAdim.m</file>
+      <file>${PROJECT_ROOT}\AnaAdim_Cext.fig</file>
+      <file>${PROJECT_ROOT}\AnaAdim_Cext.m</file>
+      <file>${PROJECT_ROOT}\AnaAdim_Op.fig</file>
+      <file>${PROJECT_ROOT}\AnaAdim_Op.m</file>
+      <file>${PROJECT_ROOT}\AnaAdimDebug.fig</file>
+      <file>${PROJECT_ROOT}\AnaAdimDebug.m</file>
+      <file>${PROJECT_ROOT}\AnaAdimR.fig</file>
+      <file>${PROJECT_ROOT}\AnaAdimR.m</file>
+      <file>${PROJECT_ROOT}\AnaDim.fig</file>
+      <file>${PROJECT_ROOT}\AnaDim.m</file>
+      <file>${PROJECT_ROOT}\AnaDimF.fig</file>
+      <file>${PROJECT_ROOT}\AnaDimF.m</file>
+      <file>${PROJECT_ROOT}\AnaDimV.fig</file>
+      <file>${PROJECT_ROOT}\AnaDimV.m</file>
+      <file>${PROJECT_ROOT}\AnaViento.fig</file>
+      <file>${PROJECT_ROOT}\AnaViento.m</file>
+      <file>${PROJECT_ROOT}\CargarData.m</file>
+      <file>${PROJECT_ROOT}\CheckAnaAdim.m</file>
+      <file>${PROJECT_ROOT}\CheckAnaDim.m</file>
+      <file>${PROJECT_ROOT}\CheckDisAdim.m</file>
+      <file>${PROJECT_ROOT}\CheckDisDim.m</file>
+      <file>${PROJECT_ROOT}\CheckFun.m</file>
+      <file>${PROJECT_ROOT}\CheckOpt.m</file>
+      <file>${PROJECT_ROOT}\CheckPn.m</file>
+      <file>${PROJECT_ROOT}\DataViento.fig</file>
+      <file>${PROJECT_ROOT}\DataViento.m</file>
+      <file>${PROJECT_ROOT}\DisAdim.fig</file>
+      <file>${PROJECT_ROOT}\DisAdim.m</file>
+      <file>${PROJECT_ROOT}\DisAdimOp_cR.fig</file>
+      <file>${PROJECT_ROOT}\DisAdimOp_cR.m</file>
+      <file>${PROJECT_ROOT}\DisAdimR.fig</file>
+      <file>${PROJECT_ROOT}\DisAdimR.m</file>
+      <file>${PROJECT_ROOT}\DSS.m</file>
+      <file>${PROJECT_ROOT}\Exportar.m</file>
+      <file>${PROJECT_ROOT}\ExtendAct.fig</file>
+      <file>${PROJECT_ROOT}\ExtendAct.m</file>
+      <file>${PROJECT_ROOT}\filltbl.m</file>
+      <file>${PROJECT_ROOT}\limpiar.m</file>
+      <file>${PROJECT_ROOT}\MostrarT.fig</file>
+      <file>${PROJECT_ROOT}\MostrarT.m</file>
+      <file>${PROJECT_ROOT}\Opt.fig</file>
+      <file>${PROJECT_ROOT}\Opt.m</file>
+      <file>${PROJECT_ROOT}\Opt_R.fig</file>
+      <file>${PROJECT_ROOT}\Opt_R.m</file>
+      <file>${PROJECT_ROOT}\Opt_V.fig</file>
+      <file>${PROJECT_ROOT}\Opt_V.m</file>
+      <file>${PROJECT_ROOT}\PerfilesCargar.fig</file>
+      <file>${PROJECT_ROOT}\PerfilesCargar.m</file>
+      <file>${PROJECT_ROOT}\PerfilesGraf.fig</file>
+      <file>${PROJECT_ROOT}\PerfilesGraf.m</file>
+      <file>${PROJECT_ROOT}\PerfilesGrafFun.m</file>
+      <file>${PROJECT_ROOT}\PerfilesGrafGraf.m</file>
+      <file>${PROJECT_ROOT}\Pn.fig</file>
+      <file>${PROJECT_ROOT}\Pn.m</file>
+      <file>${PROJECT_ROOT}\Principal.fig</file>
+      <file>${PROJECT_ROOT}\PV.fig</file>
+      <file>${PROJECT_ROOT}\PV.m</file>
+      <file>${PROJECT_ROOT}\RosGraf.m</file>
+      <file>${PROJECT_ROOT}\VentDisc.fig</file>
+      <file>${PROJECT_ROOT}\VentDisc.m</file>
+      <file>${PROJECT_ROOT}\WblGraf.m</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\AeroGen\for_testing" name="readme.txt" optional="true">C:\Users\Abraham\Documents\MATLAB\Apps\AeroGenV3\AeroGen\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\AeroGen\for_testing" name="splash.png" optional="false">C:\Users\Abraham\Documents\MATLAB\Apps\AeroGenV3\AeroGen\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\AeroGen\for_testing" name="AeroGen.exe" optional="false">C:\Users\Abraham\Documents\MATLAB\Apps\AeroGenV3\AeroGen\for_testing\AeroGen.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2014a</root>
+      <toolboxes>
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
