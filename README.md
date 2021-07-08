@@ -12,49 +12,31 @@ AeroGen es un programa con interfaz gráfica para el diseño y análisis aerodin
 Documentación: presentación tutorial en el directorio "doc"
  
 ## Tomas de pantalla
-
-<figure>
-  <img
-  src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/1_Main window.png" width="600">
-  <figcaption>Ventana principal de la aplicación</figcaption>
-</figure>
+Ventana principal de la aplicación
+<img
+src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/1_Main window.png" width="800">
 
 
-
-<figure>
-  <img
-  src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/2_Airfoil loading dialog.png" width="600">
-  <figcaption>Ventana de diálogo de carga de perfiles</figcaption>
-</figure>
+Ventana de diálogo de carga de perfiles
+<img
+src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/2_Airfoil loading dialog.png" width="300">
 
 
-
-<figure>
-  <img
-  src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/3_Airfoil extension dialog.png" width="600">
-  <figcaption>Ventana de diálogo de extensión del comportamiento de perfiles</figcaption>
-</figure>
+Ventana de diálogo de extensión del comportamiento de perfiles
+<img
+src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/3_Airfoil extension dialog.png" width="600">
 
 
-
-<figure>
-  <img
-  src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/4_Dimensionless design.png" width="600">
-  <figcaption>Ventana de diseño adimensional</figcaption>
-</figure>
+Ventana de diseño adimensional
+<img
+src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/4_Dimensionless design.png" width="800">
 
 
-
-<figure>
-  <img
-  src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/5_Dimensionless analysis.png" width="600">
-  <figcaption>Ventana de análisis adimensional</figcaption>
-</figure>
+Ventana de análisis adimensional
+<img
+src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/5_Dimensionless analysis.png" width="800">
 
 
-
-<figure>
-  <img
-  src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/6_Fixed speed sizing optimization.png" width="600">
-  <figcaption>Ventana de optimización de dimensionado funcionando a velocidad fija</figcaption>
-</figure>
+Ventana de optimización de dimensionado funcionando a velocidad fija
+<img
+src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/6_Fixed speed sizing optimization.png" width="800">
