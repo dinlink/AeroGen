@@ -9,8 +9,6 @@ AeroGen es un programa con interfaz gráfica para el diseño y análisis aerodin
  - Análisis adimensional: Cálculo de la curva de coeficiente de potencia contra velocidad específica.
  - Análisis dimensional y optimización:  Determinación de el tamaño y velocidad de giro para la recuperación de energía dado un recurso eólico.
  
-Este programa puede contener errores informáticos y aún puede ser mejorado.
-
 Documentación: presentación tutorial en el directorio "doc"
  
 ## Tomas de pantalla
