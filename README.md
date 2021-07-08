@@ -13,30 +13,41 @@ Documentación: presentación tutorial en el directorio "doc"
  
 ## Tomas de pantalla
 Ventana principal de la aplicación
+
 <img
 src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/1_Main window.png" width="800">
 
+<br>
 
 Ventana de diálogo de carga de perfiles
+
 <img
 src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/2_Airfoil loading dialog.png" width="300">
 
+<br>
 
 Ventana de diálogo de extensión del comportamiento de perfiles
+
 <img
 src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/3_Airfoil extension dialog.png" width="600">
 
+<br>
 
 Ventana de diseño adimensional
+
 <img
 src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/4_Dimensionless design.png" width="800">
 
+<br>
 
 Ventana de análisis adimensional
+
 <img
 src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/5_Dimensionless analysis.png" width="800">
 
+<br>
 
 Ventana de optimización de dimensionado funcionando a velocidad fija
+
 <img
 src="https://raw.githubusercontent.com/dinlink/AeroGen/master/img/6_Fixed speed sizing optimization.png" width="800">
